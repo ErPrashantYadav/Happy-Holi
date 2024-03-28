@@ -168,4 +168,50 @@ video
   .audio-player i:hover {
     color: #ffbb00;
   }
+  /* Add this CSS at the end of your existing CSS */
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .myinfo {
+      top: 100px; /* Adjust positioning for smaller screens */
+      left: 50px; /* Adjust positioning for smaller screens */
+      width: 80%; /* Adjust width for smaller screens */
+      padding: 20px; /* Add padding for smaller screens */
+      text-align: center; /* Center-align text for smaller screens */
+    }
+    .nav-item {
+      margin-left: 10px; /* Reduce margin for smaller screens */
+    }
+    .btn {
+      font-size: 14px; /* Reduce font size for smaller screens */
+      padding: 5px 10px; /* Adjust padding for smaller screens */
+    }
+    .hue {
+      margin-top: 20px; /* Adjust margin-top for smaller screens */
+      margin-right: 0; /* Reset margin-right for smaller screens */
+      text-align: center; /* Center-align text for smaller screens */
+    }
+    .audio-player {
+      bottom: 10px; /* Adjust bottom position for smaller screens */
+      left: 10px; /* Adjust left position for smaller screens */
+    }
+  }
+  
+  /* Adjustments for even smaller screens, e.g., mobile phones */
+  @media (max-width: 576px) {
+    .myinfo {
+      top: 50px; /* Further adjust positioning for smaller screens */
+      width: 90%; /* Further adjust width for smaller screens */
+    }
+    .btn {
+      font-size: 12px; /* Further reduce font size for smaller screens */
+      padding: 3px 6px; /* Further adjust padding for smaller screens */
+    }
+    .holi {
+      font-size: 60px; /* Reduce font size for smaller screens */
+    }
+    h1 {
+      font-size: 70px; /* Reduce font size for smaller screens */
+    }
+  }
   
